@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    height: auto;
+}
+
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+
+a[href="#"] {
+    background-color: blueviolet;
+}
+
+/* Symbol ^ starts with "info" */
+*[class^="info"] {
+    color: green;
+}
+
+/* Symbol * contains "text" */
+*[class*="text"] {
+    background-color: burlywood;
+}
+
+/* Symbol $ ends with "title" */
+h2[class$="title"] {
+    font-style: italic;
+}
