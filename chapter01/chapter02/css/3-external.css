@@ -1,0 +1,66 @@
+body{
+    background-color: lightgray;
+}
+h1 {color: red;
+}
+p, li { color: blue;
+background-color: antiquewhite;
+}
+.intro {
+    width: 800px;
+    color: rgb(54, 55, 105);
+    background-color: forestgreen;
+}
+.spyros {
+    width: 800px;
+    color: firebrick;
+    background-color: rgb(168, 190, 39);
+}
+img.intro {
+    width: 800px;
+    height: auto;
+    border: 5px solid yellow;
+}
+
+#kostas {
+    color: black;
+    background-color: orange;
+}
+p {
+    color: yellow;
+    background-color: red;
+}
+ul > li {
+    color: orange;
+}
+
+ul strong {
+    background-color: grey;
+}
+
+h1 + p {
+    background-color: orange;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: rgb(196, 224, 200);
+}
+
+a:focus {
+    outline: none;
+    background-color: rgb(255, 0, 43);
+}
+
+a:active {
+    background-color: chocolate;
+    color: white;
+}
+/*LoVeHateFeAr
